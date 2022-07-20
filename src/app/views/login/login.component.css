@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 100%;
+}
+
+.menu{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
